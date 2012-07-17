@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 html{
 	border-top: 8px solid #000;
-	font-family: "myriad-pro-1","myriad-pro-2";
+	font-family: "myriad-pro-1","myriad-pro-2", "helvetica", "arial", sans-serif;
 }
 
  #title h1 {
@@ -59,7 +59,8 @@ h3{
 }
 
 p{
-	font-family: "elena-web-basic-1","elena-web-basic-2";
+	font-family: "elena-web-basic-1","elena-web-basic-2", "georgia", serif;
+	font-size: 18px;
 }
 
 nav.link.left{

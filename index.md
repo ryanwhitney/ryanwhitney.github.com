@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Ryan Whitney - Design & Development
 ---
 {% include JB/setup %}
 
