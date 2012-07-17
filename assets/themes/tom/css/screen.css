@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html{
+	border-top: 8px solid #000;
+	font-family: "myriad-pro-1","myriad-pro-2";
+}
+
+ #title h1 {
+	font-size: 26px;
+	font-weight: 600;
+	width: 158px !important;
+	margin: 22px auto 0 auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+#title h1 a{
+	text-decoration: none;
+}
+
+ #title h2{
+	font-size: 20px;
+	font-weight: 400;
+	width: 200px;
+	color: #6f6f6f;
+	margin: 5px auto 0 auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3{
+	font-size: 26px;
+	padding-left: 5px;
+	margin-bottom: 8px;
+}
+
+p{
+	font-family: "elena-web-basic-1","elena-web-basic-2";
+}
+
+nav.link.left{
+	position: absolute;
+	top: 22px;
+	left: 15px;
+	background: #000;
+	border-radius: 5px;
+	color: white;
+	padding: 4px 8px;
+}
+footer{
+	padding: 80px 0 40px;
+	width: 663px;
+	margin: auto;
+	opacity: .7;
+}
+
+footer hr{
+	border-top: 1px dashed #000;
+}
+#projects{
+	width: 663px;
+	margin: 85px auto 0 auto;
+	list-style: none;
+}
+#projects li, .site{
+	margin-bottom: 40px;
+}
+
+#banners{
+	height: 530px;
+	width: 663px; 
+}
+
+#frame{
+	position: relative;
+	height: 400px;
+	z-index: 9999999999;
+}
+.pager{
+	position: relative;
+	display: block;
+	background: url(images/slider-arrows.png) 27px;
+	background: url(images/slider-arrows.svgz) 27px;
+	width: 26px;
+	height: 21px;
+}
+.pager#prev{
+	background: url(images/slider-arrows.png);
+	background: url(images/slider-arrows.svgz);
+	right: 63px;
+	top: 276px;
+}
+
+.pager#next{
+	left: 700px;
+	top: 255px;
+}
+
+.slides{
+	position: relative;
+	width: 661px;
+	height: 355px;	
+	bottom: 376px;
+	left: 1px;
+	z-index: 1;
+}
+h3 span.arrow{
+	position: relative;
+	top: 3px;
+	font-family: 'Lucida Grande', 'Lucida Sans', Lucida, sans-serif;
+	font-weight: 800;
+	-webkit-font-smoothing: none;
+}
+a,a:visited{
+	color: #000;
+}
+
+/* Blog specific */
+
+.site{
+	width: 663px;
+	margin: 55px auto 0 auto;
+	list-style: none;
+}
+
+.site h1{
+	font-size: 26px;
+	margin-bottom: 8px;
+}
+
+.posts h2{
+	font-size: 26px;
+	margin-top: 8px;
+}
+a.local{
+	text-decoration: none;
+}
+.date{
+	color: #888;	
+}
+
+ul.posts{
+	list-style: none;
+}
+
+blockquote{
+	color: #888;
+	border-left: 3px solid #eee;
+	padding-left: 10px;
+	margin-left: 7px;
+}
+.site p{
+	margin-bottom: 16px;
+	margin-top: 16px;
+	line-height: 24px;	
+}
+
+.seperator{
+	width: 10px;
+	margin: auto;
+	border: none;
+	height: 30px;
+}
+.posts ul{
+	padding-left: 30px;
+	list-style-type: disc;
+}
