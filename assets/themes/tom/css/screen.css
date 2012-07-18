@@ -190,3 +190,6 @@ blockquote{
 	padding-left: 30px;
 	list-style-type: disc;
 }
+.posts p a{
+	color: #C33;
+}
