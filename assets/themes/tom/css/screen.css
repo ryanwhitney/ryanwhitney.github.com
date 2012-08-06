@@ -192,4 +192,8 @@ blockquote{
 }
 .posts p a{
 	color: #C33;
+	text-decoration: none;
+}
+.posts p a:hover{
+	text-decoration: underline;
 }
